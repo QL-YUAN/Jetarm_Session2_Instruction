@@ -75,6 +75,7 @@ nav:
       - Get EEF Pose: Get_EEF_Pose.md
       - Image Collector Instruction: Image_Collector_Instruction.md
       - SCP File Transfer: scp_file_transfer.md
+      - Pick and Place: Pick_and_Place_Programming_Instruction.md
   - TF Publication:
       - TF launch: launch_file_tf_publication_intro.md
   - Python Tutorial:

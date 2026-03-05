@@ -19,8 +19,9 @@ R & t \\
 $$
 
 where:
-- $$\( R \in \mathbb{R}^{3 \times 3} \) $$ is a rotation matrix
-- $$\( t \in \mathbb{R}^{3} \)$$ is a translation vector
+
+- $R \in \mathbb{R}^{3 \times 3}$ is a rotation matrix  
+- $t \in \mathbb{R}^{3}$ is a translation vector 
 
 Such matrices allow transformations to be **composed using matrix multiplication**.
 
