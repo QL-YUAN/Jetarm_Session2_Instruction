@@ -246,7 +246,7 @@ To publish TF between the robot's EEF (`link5`) and the camera's optical frame:
 [Launch File For TF Publication](launch_file_tf_publication_intro.md)  
 You can put following launch file downloaded from Lab9 LMS in launch folder in a jetarm package: `tf_hand2camera.launch`
 
-### 6. (For Your Practace Only) Sample of Programing Robot Motion with Motion File: Download from Lab7 in LMS 
+### 6. Sample of Programing Robot Motion with Motion File: Download from Lab7 in LMS 
 * Motion file `matlab_output.txt`
 * Program file `execute_joint_angles_import_data_from_file.py`
 * This method is not for your pick and place project, just an example on how to set waypoints in a file for robot execution. 
