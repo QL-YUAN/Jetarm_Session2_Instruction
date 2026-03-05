@@ -1,0 +1,81 @@
+site_name: JetArm Documentation
+site_description: Robotics, Kinematics and Practical Guides
+site_author: Your Name
+site_url: https://yourusername.github.io/your-repo-name/
+
+repo_url: https://github.com/yourusername/your-repo-name
+repo_name: GitHub
+
+theme:
+  name: material
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+
+nav:
+  - Home: index.md
+
+  - JetArm Kinematics:
+      - Forward Kinematics Intro: JetArm_ForwardKinematics_Intro.md
+      - Inverse Kinematics Intro: JetArm_IK_Intro.md
+      - Kinematics Theory Topics: Kinematics_Calculation_Related_Topics_Introduction.md
+      - Matrix Calculation Demo: MatrixCalculationDemo.md
+
+  - Practical Guides:
+      - Tag Tracking: Tag_Tracking_Introduction.md
+      - Get EEF Pose: Get_EEF_Pose.md
+      - Image Collector Instruction: Image_Collector_Instruction.md
+      - SCP File Transfer: scp_file_transfer.md
+  - TF Publication:
+      - TF launch: launch_file_tf_publication_intro.md
+  - Python Tutorial:
+      - Python for Beginners: python_tutorial_for_beginners.md
